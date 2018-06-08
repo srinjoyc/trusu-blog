@@ -31,7 +31,11 @@
 <header>
   <div id="logo">
     <a href="/">
-        <img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/34559176_371004186755073_1799369985949171712_n.png?_nc_cat=0&oh=46ba9bc715799d2d6262382d0b0c0c0d&oe=5B825DD6" alt="<%= CONFIG[:blog_name] %>" />
+      <% if CONFIG[:logo].empty? %>
+        <%= CONFIG[:blog_name] %>
+      <% else %>
+        <img src="<%= CONFIG[:logo] %>" alt="<%= CONFIG[:blog_name] %>" />
+      <% end %>
     </a>
   </div>
   <div id="lines">
