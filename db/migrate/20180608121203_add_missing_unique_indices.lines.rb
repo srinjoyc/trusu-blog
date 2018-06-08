@@ -1,6 +1,6 @@
 # This migration comes from lines (originally 20140702160603)
 # This migration comes from acts_as_taggable_on_engine (originally 2)
-class AddMissingUniqueIndices < ActiveRecord::Migration
+class AddMissingUniqueIndices < ActiveRecord::Migration[4.2]
   def self.up
     add_index :tags, :name, unique: true
 

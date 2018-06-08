@@ -1,5 +1,5 @@
 # This migration comes from lines (originally 20140505122014)
-class BaseMigration < ActiveRecord::Migration
+class BaseMigration < ActiveRecord::Migration[4.2]
   # encoding: UTF-8
   # This file is auto-generated from the current state of the database. Instead
   # of editing this file, please use the migrations feature of Active Record to
