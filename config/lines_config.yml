@@ -3,16 +3,16 @@
 ###################################
 
 logo: ""                                                                        # Logo for your blog. Leave empty if you don't have one
-blog_name: "LINES"                                                              # Give your blog a meanungful name.
-title: "LINES - A simple open source blog engine, built with Rails"             # Give your blog a meaningful title. This is used for the HTML title attribute
-title_short: "LINES"                                                            # Place the name of your blog or a short title here
-short_description: "A simple open source blog engine, built with Rails"         # Short description for your blog
-meta_description: "LINES - A simple open source blog engine, built with Rails"  # meta description tag
+blog_name: "Trusu Blog"                                                              # Give your blog a meanungful name.
+title: "Trusu - American Imports to Hong Kong"             # Give your blog a meaningful title. This is used for the HTML title attribute
+title_short: "Trusu"                                                            # Place the name of your blog or a short title here
+short_description: "We started Trusu because we wanted to use technology to provide Hong Kong with cheaper and better foreign products."         # Short description for your blog
+meta_description: "We ship items from thousands of US retailers to Hong Kong. Buy your American favorite brands such as."  # meta description tag
 meta_author: "John Doe"                                                         # meta tag for author
 keywords: "Lines, Blog, Ruby on Rails"                                          # your keywords
-og_logo: "https://opoloo.github.io/lines-engine/assets/images/lines-logo.jpg"   # OpenGraph logo
+og_logo: "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/34559176_371004186755073_1799369985949171712_n.png?_nc_cat=0&oh=46ba9bc715799d2d6262382d0b0c0c0d&oe=5B825DD6"   # OpenGraph logo
 geo_position: "50.00; 8.27"                                                     # Geo tags for position and address
-geo_address: "Opoloo, 55116 Mainz"                                              # Geo tags for position and address
+geo_address: "Hong Kong"                                              # Geo tags for position and address
 
 
 ##############
@@ -21,16 +21,16 @@ geo_address: "Opoloo, 55116 Mainz"                                              
 
 # Your Twitter and Google+ profile URL
 # Leave empty if you don't want to display inside the footer
-twitter_url: 'http://twitter.com/opoloo'
-gplus_url: 'https://plus.google.com/+Opoloo'
+twitter_url: ''
+gplus_url: ''
 
 
 #################
 ### ATOM FEED ###
 #################
 
-feed_title: "LINES - A simple open source blog engine, built with Rails"        # give your feed a title
-feed_logo: "https://opoloo.github.io/lines-engine/assets/images/lines-logo.jpg" # full URL to the feed logo. Aspect ratio should be 2:1
+feed_title: "Trusu Blogs"        # give your feed a title
+feed_logo: "https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/34559176_371004186755073_1799369985949171712_n.png?_nc_cat=0&oh=46ba9bc715799d2d6262382d0b0c0c0d&oe=5B825DD6" # full URL to the feed logo. Aspect ratio should be 2:1
 feed_favicon: "https://opoloo.github.io/lines-engine/assets/images/favicon.ico" # full URL to the favicon. Aspect ratio should be 1:1
 
 
@@ -55,5 +55,5 @@ test:
   host: "test.local"
   from_email: 'noreply@example.com'
 production:
-  host: "blog.opoloo.com"
-  from_email: 'noreply@example.com'
+  host: "https://trusublog.herokuapp.com/"
+  from_email: 'info@trusu.com'
